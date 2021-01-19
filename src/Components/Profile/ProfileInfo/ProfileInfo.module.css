@@ -1,0 +1,27 @@
+.avatarAndDescription {
+  margin-top: 20px;
+  display: flex;
+}
+
+.description {
+  margin-left: 25px;
+}
+
+.description p {
+  margin-top: -15px;
+  font-size: 11px;
+}
+
+.cover {
+  height: 200px;
+  background-image: url('../../../img/landscape-photography.jpg');
+  background-size: cover;
+  border-radius: 5px;
+}
+
+.userpic {
+  width: 100px;
+  height: 100px;
+  margin-top: 10px;
+  border-radius: 50%;
+}

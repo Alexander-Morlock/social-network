@@ -1,0 +1,18 @@
+.sideBarFriend {
+  font-size: 11px;
+  flex-grow: 0;
+  width: 33%;
+  position: relative;
+  text-align: center;
+  word-break: break-word;
+  margin-top: 65px;
+}
+
+.sideBarFriend img {
+  position: absolute;
+  width: 50px;
+  border-radius: 50%;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -55px;
+}

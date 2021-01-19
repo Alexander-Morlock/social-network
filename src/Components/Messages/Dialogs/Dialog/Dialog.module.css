@@ -1,0 +1,37 @@
+.dialog {
+  padding-left: 35px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid #eef5db;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.dialog:last-child {
+  margin-bottom: auto;
+}
+
+.selected,
+.selected.dialog:hover {
+  background-color: #eef5db;
+}
+
+.dialog a {
+  color: #4f6367;
+  display: block;
+  text-decoration: none;
+}
+
+.dialog:hover {
+  background-color: #eef5db;
+  text-decoration: underline;
+}
+
+.dialog img {
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  left: -10px;
+  top: -4px;
+  border: 1px solid #eef5db;
+}

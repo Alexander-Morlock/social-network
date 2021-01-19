@@ -1,0 +1,32 @@
+.navbar {
+  background-color: #4f6367;
+  color: #eef5db;
+  width: 215px;
+  border-radius: 5px;
+  font-size: 20px;
+}
+
+.navigation a {
+  color: #eef5db;
+  text-decoration: none;
+}
+
+.navigation a:hover {
+  color: #fe5f55;
+  text-decoration: underline;
+}
+
+.navigation ul,
+.sideBarFriends ul {
+  list-style: none;
+  margin: 0;
+  padding: 20px;
+}
+
+.navigation li:last-child::before {
+  content: "";
+  display: block;
+  border-bottom: 1px dotted #eef5db;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

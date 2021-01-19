@@ -1,0 +1,21 @@
+.header {
+  background-color: #fe5f55;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  display: flex;
+  margin-top: 10px;
+}
+
+.header h1 {
+  margin: 0 auto;
+  color: #eef5db;
+}
+
+.headerlogo {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-image: url('../../img/logo.jpg');
+  background-size: cover;
+}

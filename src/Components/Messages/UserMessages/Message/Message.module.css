@@ -1,0 +1,26 @@
+.message {
+  position: relative;
+  width: fit-content;
+  max-width: 450px;
+  border: 1px solid #eef5db;
+  padding: 5px;
+  padding-left: 35px;
+  margin-bottom: 10px;
+}
+
+.message:last-child {
+  margin-bottom: auto;
+}
+
+.message img {
+  position: absolute;
+  width: 40px;
+  border-radius: 50%;
+  left: -10px;
+  top: -4px;
+  border: 1px solid #eef5db;
+}
+
+.messageToTheRight {
+  margin-left: auto;
+}
